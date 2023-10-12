@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E14C5252AD6D58F002F1CE3 /* BMUserDefaults.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7E14C5242AD6D58F002F1CE3 /* BMUserDefaults.docc */; };
-		7E14C5262AD6D58F002F1CE3 /* BMUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E14C5232AD6D58F002F1CE3 /* BMUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E14C52F2AD6D5C3002F1CE3 /* BMDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E14C52E2AD6D5C3002F1CE3 /* BMDefaults.swift */; };
+		7E14C5352AD6D7D0002F1CE3 /* BMDefaultsCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E14C5342AD6D7D0002F1CE3 /* BMDefaultsCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E14C5202AD6D58F002F1CE3 /* BMUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E14C5232AD6D58F002F1CE3 /* BMUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMUserDefaults.h; sourceTree = "<group>"; };
-		7E14C5242AD6D58F002F1CE3 /* BMUserDefaults.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BMUserDefaults.docc; sourceTree = "<group>"; };
+		7E14C52E2AD6D5C3002F1CE3 /* BMDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMDefaults.swift; sourceTree = "<group>"; };
+		7E14C5342AD6D7D0002F1CE3 /* BMDefaultsCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMDefaultsCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +47,8 @@
 		7E14C5222AD6D58F002F1CE3 /* BMUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				7E14C5232AD6D58F002F1CE3 /* BMUserDefaults.h */,
-				7E14C5242AD6D58F002F1CE3 /* BMUserDefaults.docc */,
+				7E14C52E2AD6D5C3002F1CE3 /* BMDefaults.swift */,
+				7E14C5342AD6D7D0002F1CE3 /* BMDefaultsCodable.swift */,
 			);
 			path = BMUserDefaults;
 			sourceTree = "<group>";
@@ -60,7 +60,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E14C5262AD6D58F002F1CE3 /* BMUserDefaults.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E14C5252AD6D58F002F1CE3 /* BMUserDefaults.docc in Sources */,
+				7E14C5352AD6D7D0002F1CE3 /* BMDefaultsCodable.swift in Sources */,
+				7E14C52F2AD6D5C3002F1CE3 /* BMDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
